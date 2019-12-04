@@ -5,6 +5,8 @@
 ## AWS
 
 * [re:Invent 2019](aws/re-invent-2019.md)
+* [Control Tower](aws/control-tower/README.md)
+  * [Building a Scalable and Secure Multi-VPC AWS Network Infrastructure](aws/control-tower/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.md)
 
 ## Security
 
