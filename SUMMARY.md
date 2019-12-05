@@ -5,6 +5,8 @@
 ## AWS
 
 * [re:Invent 2019](aws/re-invent-2019.md)
+* [re:Invent 2018](aws/re-invent-2018/README.md)
+  * [The Tension Between Absolutes & Ambiguity in Security \(SEC310\)](aws/re-invent-2018/the-tension-between-absolutes-and-ambiguity-in-security-sec310.md)
 * [Control Tower](aws/control-tower/README.md)
   * [Building a Scalable and Secure Multi-VPC AWS Network Infrastructure](aws/control-tower/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.md)
 
