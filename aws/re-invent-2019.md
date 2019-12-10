@@ -14,5 +14,11 @@
 
 {% embed url="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch\_Synthetics\_Canaries.html" %}
 
+## Resources
+
+{% embed url="https://aws.amazon.com/builders-library/" %}
+
+{% embed url="https://firecracker-microvm.github.io/" %}
+
 
 
