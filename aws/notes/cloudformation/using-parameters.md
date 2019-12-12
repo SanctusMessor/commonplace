@@ -90,5 +90,7 @@ Resources: # <-- Beginning of Resources
 
 ```
 
+{% embed url="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html\#cfn-pseudo-param-notificationarns" %}
+
 
 
