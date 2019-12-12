@@ -11,6 +11,7 @@
 * [Control Tower](aws/control-tower/README.md)
   * [Building a Scalable and Secure Multi-VPC AWS Network Infrastructure](aws/control-tower/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.md)
 * [Notes](aws/notes/README.md)
+  * [awscli](aws/notes/awscli.md)
   * [Cloudformation](aws/notes/cloudformation/README.md)
     * [Using Parameters](aws/notes/cloudformation/using-parameters.md)
 
