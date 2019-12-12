@@ -2,6 +2,8 @@
 
 {% embed url="https://www.portal.reinvent.awsevents.com/connect/search.ww?trk=www.google.com,www.google.com" caption="Session Catalog" %}
 
+{% embed url="https://www.trek10.com/re-inventor/2019/" caption="Video Catalog" %}
+
 ## Articles
 
 {% embed url="https://aws.amazon.com/about-aws/whats-new/2019/11/aws-launches-tag-policies/?ck\_subscriber\_id=512831660" %}
