@@ -28,6 +28,7 @@
   * [Cloudcraft](tools/aws-toolbox/cloudcraft.md)
 * [Design Document Template](tools/design-document-template.md)
 * [Unity SSDLC](tools/unity-ssdlc.md)
+* [Youtubers](tools/youtubers.md)
 * [vscode](tools/vscode/README.md)
   * [Cloudformation](tools/vscode/cloudformation.md)
 
