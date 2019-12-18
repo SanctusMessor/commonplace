@@ -4,12 +4,11 @@
 
 ## AWS
 
-* [re:Invent 2019](aws/re-invent-2019/README.md)
-  * [Best practices for authoring AWS CloudFormation \(DOP302-R1\)](aws/re-invent-2019/best-practices-for-authoring-aws-cloudformation-dop302-r1.md)
-* [re:Invent 2018](aws/re-invent-2018/README.md)
-  * [The Tension Between Absolutes & Ambiguity in Security \(SEC310\)](aws/re-invent-2018/the-tension-between-absolutes-and-ambiguity-in-security-sec310.md)
 * [Control Tower](aws/control-tower/README.md)
   * [Building a Scalable and Secure Multi-VPC AWS Network Infrastructure](aws/control-tower/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.md)
+* [Talks / Articles](aws/talks-articles/README.md)
+  * [The Tension Between Absolutes & Ambiguity in Security \(SEC310\)](aws/talks-articles/the-tension-between-absolutes-and-ambiguity-in-security-sec310.md)
+  * [Best practices for authoring AWS CloudFormation \(DOP302-R1\)](aws/talks-articles/best-practices-for-authoring-aws-cloudformation-dop302-r1.md)
 * [Notes](aws/notes/README.md)
   * [awscli](aws/notes/awscli.md)
   * [Cloudformation](aws/notes/cloudformation/README.md)
