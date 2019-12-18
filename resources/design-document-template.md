@@ -1,7 +1,7 @@
 # Design Document Template
 
 > Google Link: [https://docs.google.com/document/d/13\_F8\_nAIrYj3c\_L9LVTMS7pZrP66O1fUAvRfonAE9Gk/edit?usp=sharing](https://docs.google.com/document/d/13_F8_nAIrYj3c_L9LVTMS7pZrP66O1fUAvRfonAE9Gk/edit?usp=sharing)
-
+>
 > As someone who has written a lot of documentation, I can tell you my approach
 >
 > First, start with a high level summary of what the thing is does, as well as what it is supposed to do. The second part should outline things like the problem it’s solving, the challenges faced, the assumptions made. This way the reader can understand the why better
@@ -22,7 +22,5 @@
 >
 > _update_ - link to a re-created template as a Google doc: [https://docs.google.com/document/d/13\_F8\_nAIrYj3c\_L9LVTMS7pZrP66O1fUAvRfonAE9Gk/edit?usp=sharing](https://docs.google.com/document/d/13_F8_nAIrYj3c_L9LVTMS7pZrP66O1fUAvRfonAE9Gk/edit?usp=sharing)
 
-{% embed url="https://www.reddit.com/r/aws/comments/dxmkci/how\_do\_you\_document\_your\_infrastructure/f7suoix?utm\_source=share&utm\_medium=web2x" %}
-
-
+{% embed url="https://www.reddit.com/r/aws/comments/dxmkci/how\_do\_you\_document\_your\_infrastructure/f7suoix?utm\_source=share&utm\_medium=web2x" caption="" %}
 

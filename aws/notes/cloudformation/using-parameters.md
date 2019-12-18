@@ -87,10 +87,7 @@ Resources: # <-- Beginning of Resources
       VpcId: !Ref MyVPC
       # the select function allows us to select across a list
       CidrBlock: !Select [2, !Ref DbSubnetIpBlocks]
-
 ```
 
-{% embed url="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html\#cfn-pseudo-param-notificationarns" %}
-
-
+{% embed url="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html\#cfn-pseudo-param-notificationarns" caption="" %}
 

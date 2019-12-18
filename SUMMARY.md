@@ -19,6 +19,7 @@
 
 * [Amazon Web Services](infrastructure-security/amazon-web-services/README.md)
   * [Tools](infrastructure-security/amazon-web-services/tools.md)
+* [Tools](infrastructure-security/tools.md)
 
 ## Security
 
@@ -27,15 +28,15 @@
     * [Living Off The Land: Part 2](security/articles/untitled/living-off-the-land-part-2.md)
 * [Shodan](security/shodan.md)
 
-## Tools
+## Resources
 
-* [AWS Toolbox](tools/aws-toolbox/README.md)
-  * [Cloudcraft](tools/aws-toolbox/cloudcraft.md)
-* [Design Document Template](tools/design-document-template.md)
-* [Unity SSDLC](tools/unity-ssdlc.md)
-* [vscode](tools/vscode/README.md)
-  * [Cloudformation](tools/vscode/cloudformation.md)
-* [Youtubers](tools/youtubers.md)
+* [AWS Toolbox](resources/aws-toolbox/README.md)
+  * [Cloudcraft](resources/aws-toolbox/cloudcraft.md)
+* [Design Document Template](resources/design-document-template.md)
+* [Unity SSDLC](resources/unity-ssdlc.md)
+* [vscode](resources/vscode/README.md)
+  * [Cloudformation](resources/vscode/cloudformation.md)
+* [Youtubers](resources/youtubers.md)
 
 ## Misc
 

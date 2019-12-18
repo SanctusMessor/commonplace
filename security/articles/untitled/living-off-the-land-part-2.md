@@ -4,13 +4,11 @@ description: With Windows Binaries
 
 # Living Off The Land: Part 2
 
-
-
- Nov 6, 2019
+Nov 6, 2019
 
 ## Part 2: Living Off The Land
 
- Posted in [Pentesting](https://liberty-shell.com/sec/category/pentesting)
+Posted in [Pentesting](https://liberty-shell.com/sec/category/pentesting)
 
 ## Intro <a id="intro"></a>
 
@@ -75,7 +73,7 @@ This can be whatever scriptlet you want, but in this case it’s simply executin
   classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
     <script language="JScript">
       <![CDATA[
-	var r = new ActiveXObject("WScript.Shell").Run("C:\\Users\\quaid\\AppData\\Local\\shelter.exe");
+    var r = new ActiveXObject("WScript.Shell").Run("C:\\Users\\quaid\\AppData\\Local\\shelter.exe");
 
        ]]>
 </script>
@@ -220,7 +218,5 @@ Like [part 1](https://liberty-shell.com/sec/2018/10/20/living-off-the-land/), he
 * Apply, restart and make sure Application Identity Service is running
 * Go through this process with other simple built-in binaries that aren’t needed.
 
-{% embed url="https://liberty-shell.com/sec/2019/11/06/living-off-the-land-pt2/" %}
-
-
+{% embed url="https://liberty-shell.com/sec/2019/11/06/living-off-the-land-pt2/" caption="" %}
 

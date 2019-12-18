@@ -6,21 +6,19 @@
 
 ## Articles
 
-{% embed url="https://aws.amazon.com/about-aws/whats-new/2019/11/aws-launches-tag-policies/?ck\_subscriber\_id=512831660" %}
+{% embed url="https://aws.amazon.com/about-aws/whats-new/2019/11/aws-launches-tag-policies/?ck\_subscriber\_id=512831660" caption="" %}
 
-{% embed url="https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/" %}
+{% embed url="https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/" caption="" %}
 
-{% embed url="https://aws.amazon.com/about-aws/whats-new/2019/12/aws-transit-gateway-supports-inter-region-peering/" %}
+{% embed url="https://aws.amazon.com/about-aws/whats-new/2019/12/aws-transit-gateway-supports-inter-region-peering/" caption="" %}
 
-{% embed url="https://docs.aws.amazon.com/vpc/latest/tgw/how-network-manager-works.html" %}
+{% embed url="https://docs.aws.amazon.com/vpc/latest/tgw/how-network-manager-works.html" caption="" %}
 
-{% embed url="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch\_Synthetics\_Canaries.html" %}
+{% embed url="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch\_Synthetics\_Canaries.html" caption="" %}
 
 ## Resources
 
-{% embed url="https://aws.amazon.com/builders-library/" %}
+{% embed url="https://aws.amazon.com/builders-library/" caption="" %}
 
-{% embed url="https://firecracker-microvm.github.io/" %}
-
-
+{% embed url="https://firecracker-microvm.github.io/" caption="" %}
 
