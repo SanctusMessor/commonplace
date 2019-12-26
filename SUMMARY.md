@@ -25,6 +25,7 @@
 * [Articles](security/articles/README.md)
   * [Living Off the Land](security/articles/untitled/README.md)
     * [Living Off The Land: Part 2](security/articles/untitled/living-off-the-land-part-2.md)
+* [DoD](security/dod.md)
 * [Shodan](security/shodan.md)
 
 ## Resources
@@ -32,6 +33,8 @@
 * [AWS Toolbox](resources/aws-toolbox/README.md)
   * [Cloudcraft](resources/aws-toolbox/cloudcraft.md)
 * [Design Document Template](resources/design-document-template.md)
+* [Docker](resources/docker/README.md)
+  * [Configure Docker w/TLS for WSL](resources/docker/configure-docker-w-tls-for-wsl.md)
 * [Unity SSDLC](resources/unity-ssdlc.md)
 * [vscode](resources/vscode/README.md)
   * [Cloudformation](resources/vscode/cloudformation.md)
