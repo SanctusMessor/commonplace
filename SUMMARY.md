@@ -43,4 +43,5 @@
 ## Misc
 
 * [Notes](misc/notes.md)
+* [Recipes](https://sanctusmessor.gitbook.io/recipes/)
 
