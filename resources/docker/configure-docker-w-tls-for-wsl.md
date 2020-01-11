@@ -64,3 +64,67 @@ export DOCKER\_HOST=tcp://127.0.0.1:2376
 export DOCKER\_TLS\_VERIFY=1
 {% endhint %}
 
+{% hint style="warning" %}
+ `C:\ProgramData\Docker\config\daemon.json`
+{% endhint %}
+
+```bash
+{
+  "registry-mirrors": [],
+  "insecure-registries": [],
+  "debug": true,
+  "experimental": true,
+  "hosts": [
+    "tcp://127.0.0.1:2376",
+    "npipe://"
+  ],
+  "tlsverify": true,
+  "tlscacert": "c:\\ProgramData\\docker\\certs\\ca.pem",
+  "tlscert": "c:\\ProgramData\\docker\\certs\\server-cert.pem",
+  "tlskey": "c:\\ProgramData\\docker\\certs\\server-key.pem"
+}
+```
+
+## Presenting the Docker Daemon from a Ubuntu 19.10 VM in vmware to the Ubuntu Subsystem Linux in Windows 10
+
+```bash
+sudo dockerd \
+  --debug \
+  --tls=true \
+  --tlscert=/home/username/.docker/server-cert.pem \
+  --tlskey=/home/username/.docker/server-key.pem \
+  --host tcp://192.168.142.128:2376
+```
+
+I was able to manually specify the above and get things running. However, I'd much rather have the config load when I start the VM.
+
+{% hint style="danger" %}
+Set a static IP. You will need to do this in the above steps when creating the CA and certs.
+{% endhint %}
+
+{% code title="/etc/docker/daemon.json" %}
+```javascript
+{
+    "debug": true,
+    "hosts": [
+        "tcp://192.168.142.128:2376"
+    ],
+    "tls": true,
+    "tlscert": "/home/username/.docker/server-cert.pem",
+    "tlskey": "/home/username/.docker/server-key.pem"
+}
+```
+{% endcode %}
+
+You must explicitly state the startup command otherwise the default `systemctl` runner includes flags which conflict with the `daemon.json`
+
+{% code title="/etc/systemd/system/docker.service.d/docker.conf" %}
+```text
+[Service]
+ExecStart=
+ExecStart=/usr/bin/dockerd
+```
+{% endcode %}
+
+
+
