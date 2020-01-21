@@ -43,3 +43,18 @@ Examples:
 cat ~/.ssh/id_rsa_name.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
 ```
 
+## SSH config
+
+```yaml
+Host example-bastion
+  User ec2-user
+  Hostname ec2-100-100-100-100.compute-1.amazonaws.com
+  Port 22
+
+Host example-mongo
+  User ec2-user
+  Hostname 200.200.200.200
+  Port 22
+  ProxyCommand ssh -q -W %h:%p example-bastion
+```
+
