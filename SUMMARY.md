@@ -25,6 +25,8 @@
 * [Articles](security/articles/README.md)
   * [Living Off the Land](security/articles/untitled/README.md)
     * [Living Off The Land: Part 2](security/articles/untitled/living-off-the-land-part-2.md)
+* [Distros](security/distros/README.md)
+  * [REMnux](security/distros/remnux.md)
 * [DoD](security/dod.md)
 * [Shodan](security/shodan.md)
 * [SSH](security/ssh.md)
