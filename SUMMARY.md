@@ -36,6 +36,8 @@
 * [Design Document Template](resources/design-document-template.md)
 * [Docker](resources/docker/README.md)
   * [Configure Docker w/TLS for WSL](resources/docker/configure-docker-w-tls-for-wsl.md)
+* [Python](resources/python/README.md)
+  * [Random Strings](resources/python/random-strings.md)
 * [Unity SSDLC](resources/unity-ssdlc.md)
 * [vscode](resources/vscode/README.md)
   * [Cloudformation](resources/vscode/cloudformation.md)
