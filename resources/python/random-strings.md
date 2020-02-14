@@ -14,7 +14,7 @@ description: For secrets and other useful things
 
 This is an excellent method, but the [PRNG](http://en.wikipedia.org/wiki/Pseudorandom_number_generator) in random is not cryptographically secure. I assume many people researching this question will want to generate random strings for **encryption or passwords**. You can do this **securely** by making a small change in the above code:
 
-```text
+```python
 ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(N))
 ```
 
@@ -24,7 +24,7 @@ Using `random.SystemRandom()` instead of just random uses /dev/urandom on \*nix 
 If you're using python3.6 or above, you can use the new [secrets](https://docs.python.org/3/library/secrets.html) module as mentioned in [MSeifert's answer](https://stackoverflow.com/a/41464693/7851470):
 {% endhint %}
 
-```text
+```python
 ''.join(secrets.choice(string.ascii_uppercase + string.digits) for _ in range(N))
 ```
 
