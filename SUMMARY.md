@@ -43,6 +43,7 @@
 * [Unity SSDLC](resources/unity-ssdlc.md)
 * [vscode](resources/vscode/README.md)
   * [Cloudformation](resources/vscode/cloudformation.md)
+* [Windows](resources/windows.md)
 * [Youtubers](resources/youtubers.md)
 
 ## Misc
