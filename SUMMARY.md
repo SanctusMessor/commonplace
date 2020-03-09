@@ -28,6 +28,7 @@
 * [Distros](security/distros/README.md)
   * [REMnux](security/distros/remnux.md)
 * [DoD](security/dod.md)
+* [GPG](security/gpg.md)
 * [Shodan](security/shodan.md)
 * [SSH](security/ssh.md)
 
