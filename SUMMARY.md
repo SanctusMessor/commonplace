@@ -9,6 +9,7 @@
 * [Talks / Articles](aws/talks-articles/README.md)
   * [The Tension Between Absolutes & Ambiguity in Security \(SEC310\)](aws/talks-articles/the-tension-between-absolutes-and-ambiguity-in-security-sec310.md)
   * [Best practices for authoring AWS CloudFormation \(DOP302-R1\)](aws/talks-articles/best-practices-for-authoring-aws-cloudformation-dop302-r1.md)
+* [Useful Links](aws/useful-links.md)
 * [Notes](aws/notes/README.md)
   * [awscli](aws/notes/awscli.md)
   * [Cloudformation](aws/notes/cloudformation/README.md)
