@@ -58,3 +58,19 @@ Host example-mongo
   ProxyCommand ssh -q -W %h:%p example-bastion
 ```
 
+## Adding your SSH key to the ssh-agent
+
+1. Ensure the ssh-agent is running:
+
+   ```text
+   # start the ssh-agent in the background
+   $ eval $(ssh-agent -s)
+   > Agent pid 59566
+   ```
+
+2. Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace _id\_rsa_ in the command with the name of your private key file.
+
+   ```text
+   $ ssh-add ~/.ssh/id_rsa
+   ```
+
