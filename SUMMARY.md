@@ -37,6 +37,8 @@
 
 * [AWS Toolbox](resources/aws-toolbox/README.md)
   * [Cloudcraft](resources/aws-toolbox/cloudcraft.md)
+* [CTF](resources/ctf/README.md)
+  * [AWS](resources/ctf/aws.md)
 * [Design Document Template](resources/design-document-template.md)
 * [Docker](resources/docker/README.md)
   * [Configure Docker w/TLS for WSL](resources/docker/configure-docker-w-tls-for-wsl.md)
