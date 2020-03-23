@@ -43,6 +43,8 @@
 * [Docker](resources/docker/README.md)
   * [Configure Docker w/TLS for WSL](resources/docker/configure-docker-w-tls-for-wsl.md)
 * [Python](resources/python/README.md)
+  * [AWS](resources/python/aws/README.md)
+    * [Lambda](resources/python/aws/lambda.md)
   * [Random Strings](resources/python/random-strings.md)
 * [Unity SSDLC](resources/unity-ssdlc.md)
 * [vscode](resources/vscode/README.md)
