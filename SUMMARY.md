@@ -50,6 +50,7 @@
   * [AWS](resources/python/aws/README.md)
     * [Lambda](resources/python/aws/lambda.md)
   * [Random Strings](resources/python/random-strings.md)
+* [Tools](resources/tools.md)
 * [Unity SSDLC](resources/unity-ssdlc.md)
 * [vscode](resources/vscode/README.md)
   * [Cloudformation](resources/vscode/cloudformation.md)
