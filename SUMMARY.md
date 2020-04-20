@@ -59,6 +59,7 @@
 
 ## Misc
 
-* [Notes](misc/notes.md)
+* [Notes](misc/notes/README.md)
+  * [youtube-dl](misc/notes/youtube-dl.md)
 * [Recipes](https://sanctusmessor.gitbook.io/recipes/)
 
