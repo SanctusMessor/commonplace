@@ -24,6 +24,7 @@
 ## Security
 
 * [Articles](security/articles/README.md)
+  * [If You're Not Doing Continuous Asset Management You're Not Doing Security \| Daniel Miessler](security/articles/untitled-1.md)
   * [Living Off the Land](security/articles/untitled/README.md)
     * [Living Off The Land: Part 2](security/articles/untitled/living-off-the-land-part-2.md)
 * [Distros](security/distros/README.md)
