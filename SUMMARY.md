@@ -36,8 +36,7 @@
 
 ## Resources
 
-* [AWS Toolbox](resources/aws-toolbox/README.md)
-  * [Cloudcraft](resources/aws-toolbox/cloudcraft.md)
+* [AWS Toolbox](resources/aws-toolbox.md)
 * [CTF](resources/ctf/README.md)
   * [AWS](resources/ctf/aws.md)
 * [Documentation](resources/documentation/README.md)
