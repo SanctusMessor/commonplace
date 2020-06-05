@@ -11,3 +11,27 @@ After extending the expiry date of a GPG key you might have to copy your key to 
 
 If the key already existed on the second machine, the import will fail saying 'Key already known'. You will have to delete both the private and public key first \(`gpg --delete-keys` and `gpg --delete-secret-keys`\)
 
+## GPG: Change key passphrase
+
+* Enter:
+
+  ```text
+  gpg --edit-key key-id
+  ```
+
+* At the gpg prompt enter:
+
+  ```text
+  passwd
+  ```
+
+* Enter the current passphrase when prompted.
+* Enter the new passphrase twice when prompted.
+* Enter:
+
+  ```text
+  save
+  ```
+
+You have now changed the passphrase.
+
