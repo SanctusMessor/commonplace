@@ -12,7 +12,7 @@ description: >-
 | What | Where |
 | :--- | :--- |
 | Level1Tech Forums | [https://forum.level1techs.com/c/hardware/motherboards](https://forum.level1techs.com/c/hardware/motherboards) |
-| IOMMU Explination / Guide | [https://www.youtube.com/channel/UCToFb-mcTsoyyf3muma9r9w](https://www.youtube.com/channel/UCToFb-mcTsoyyf3muma9r9w) |
+| IOMMU Explanation / Guide | [https://www.youtube.com/channel/UCToFb-mcTsoyyf3muma9r9w](https://www.youtube.com/channel/UCToFb-mcTsoyyf3muma9r9w) |
 
 
 
