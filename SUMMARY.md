@@ -58,6 +58,11 @@
 * [Windows](resources/windows.md)
 * [Youtubers](resources/youtubers.md)
 
+## Lab
+
+* [Building a Better Workstation](lab/building-a-better-workstation/README.md)
+  * [Notes / Guide](lab/building-a-better-workstation/notes-guide.md)
+
 ## Misc
 
 * [Notes](misc/notes/README.md)
