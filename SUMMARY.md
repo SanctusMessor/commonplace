@@ -57,6 +57,7 @@
   * [Cloudformation](resources/vscode/cloudformation.md)
 * [Windows](resources/windows/README.md)
   * [WSL2](resources/windows/wsl2/README.md)
+    * [Install a GUI \(xfce\)](resources/windows/wsl2/install-a-gui-xfce.md)
     * [Creating Additional WSL2 Instances](resources/windows/wsl2/creating-additional-wsl2-instances.md)
 * [Youtubers](resources/youtubers.md)
 
