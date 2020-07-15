@@ -74,7 +74,11 @@ echo "Please be patient. This may take a couple seconds."
 	done | sort -nk2
 ```
 
+## Limitations
 
+* KVM switching for inputs
+  * LookingGlass has quirks
+* Current hardware has poor vt-d support
 
 
 

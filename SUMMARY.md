@@ -55,7 +55,9 @@
 * [Unity SSDLC](resources/unity-ssdlc.md)
 * [vscode](resources/vscode/README.md)
   * [Cloudformation](resources/vscode/cloudformation.md)
-* [Windows](resources/windows.md)
+* [Windows](resources/windows/README.md)
+  * [WSL2](resources/windows/wsl2/README.md)
+    * [Creating Additional WSL2 Instances](resources/windows/wsl2/creating-additional-wsl2-instances.md)
 * [Youtubers](resources/youtubers.md)
 
 ## Lab
@@ -67,5 +69,8 @@
 
 * [Notes](misc/notes/README.md)
   * [youtube-dl](misc/notes/youtube-dl.md)
+
+---
+
 * [Recipes](https://sanctusmessor.gitbook.io/recipes/)
 
