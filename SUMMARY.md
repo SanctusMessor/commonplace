@@ -47,6 +47,7 @@
 * [Kubernetes](resources/kubernetes/README.md)
   * [Raspberry Pi 4 \(4GB\) Cluster](resources/kubernetes/raspberry-pi-4-4gb-cluster.md)
 * [Linux](resources/linux/README.md)
+  * [zsh config](resources/linux/zsh-config.md)
   * [Users and Groups](resources/linux/users-and-groups.md)
 * [Python](resources/python/README.md)
   * [AWS](resources/python/aws/README.md)
