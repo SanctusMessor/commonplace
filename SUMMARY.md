@@ -47,6 +47,7 @@
   * [MOCK Press Release Template](resources/documentation/mock-press-release-template.md)
   * [Design Document Template](resources/documentation/design-document-template.md)
 * [Docker](resources/docker/README.md)
+  * [Notes](resources/docker/notes.md)
   * [Configure Docker w/TLS for WSL](resources/docker/configure-docker-w-tls-for-wsl.md)
 * [Kubernetes](resources/kubernetes/README.md)
   * [Raspberry Pi 4 \(4GB\) Cluster](resources/kubernetes/raspberry-pi-4-4gb-cluster.md)
