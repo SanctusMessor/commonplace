@@ -43,6 +43,8 @@
 * [AWS Toolbox](resources/aws-toolbox.md)
 * [CTF](resources/ctf/README.md)
   * [AWS](resources/ctf/aws.md)
+* [Dev Setup](resources/dev-setup/README.md)
+  * [Windows Terminal](resources/dev-setup/windows-terminal.md)
 * [Documentation](resources/documentation/README.md)
   * [MOCK Press Release Template](resources/documentation/mock-press-release-template.md)
   * [Design Document Template](resources/documentation/design-document-template.md)
