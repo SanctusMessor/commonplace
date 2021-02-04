@@ -1,9 +1,16 @@
+---
+description: >-
+  ref: (new) Windows Terminal -
+  https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
+---
+
 # Windows Terminal
 
 ## WSL
 
 Preferred flavor: Ubuntu  
-see: [Creating Additional WSL2 Instances](https://commonplace.sanctus.dev/resources/windows/wsl2/creating-additional-wsl2-instances)
+ref: [Creating Additional WSL2 Instances](https://commonplace.sanctus.dev/resources/windows/wsl2/creating-additional-wsl2-instances)  
+font: Cascadoa Mono PL from [Microsoft Cascadia Code](https://github.com/microsoft/cascadia-code/releases)
 
 oh-my-zsh  
 Theme: agnoster  
