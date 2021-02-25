@@ -4,6 +4,8 @@ description: /etc/wsl.conf
 
 # Scratchpad
 
+## [https://docs.microsoft.com/en-us/windows/wsl/wsl-config](https://docs.microsoft.com/en-us/windows/wsl/wsl-config)
+
 ## Set the default user for a WSL2 instance
 
 ```text
