@@ -20,6 +20,13 @@ default=<string>
 localhostForwarding=true
 ```
 
+## Remove Windows Path from WSL
+
+```text
+[interop]
+appendWindowsPath=false
+```
+
 ## Start WSL2 as a specific user
 
 ```text
