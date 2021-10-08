@@ -42,3 +42,7 @@ Create a non-root user
 adduser username
 ```
 
+Within Windows Terminal, `ctrl + ,` for settings. Select the wsl instance from the left pane and set the starting directory to `//wsl$/distroname/home/username`
+
+![](../../../.gitbook/assets/image%20%288%29.png)
+
