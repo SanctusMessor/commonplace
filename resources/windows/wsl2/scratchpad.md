@@ -33,3 +33,12 @@ appendWindowsPath=false
 wsl -d <distro> -u <user>
 ```
 
+## Notes when creating from rootfs
+
+Create a non-root user
+
+```bash
+# in Ubuntu, you'll be root by default
+adduser username
+```
+
