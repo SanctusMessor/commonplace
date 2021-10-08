@@ -40,6 +40,9 @@ Create a non-root user
 ```bash
 # in Ubuntu, you'll be root by default
 adduser username
+
+# Do you want to be able to sudo?
+usermod -aG sudo username
 ```
 
 Within Windows Terminal, `ctrl + ,` for settings. Select the wsl instance from the left pane and set the starting directory to `//wsl$/distroname/home/username`
